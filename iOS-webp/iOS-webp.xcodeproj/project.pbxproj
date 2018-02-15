@@ -30,6 +30,7 @@
 		1527955A203564840085A49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15279559203564840085A49D /* UIKit.framework */; };
 		1527955B203564D20085A49D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952D203562010085A49D /* WebP.framework */; };
 		1527955C203564D20085A49D /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952C203562010085A49D /* WebPDecoder.framework */; };
+		1527959F203569BD0085A49D /* UIImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 15279528203561D20085A49D /* UIImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15279548203564620085A49D /* Webp_framework.h in Headers */,
+				1527959F203569BD0085A49D /* UIImage+WebP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
