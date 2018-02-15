@@ -7,8 +7,9 @@ Support encode/decode webp for iOS
 1. Download MacPorts for your Mac OS X version from the MacPorts [downloads site](http://distfiles.macports.org/MacPorts/). MacPorts requires the installation of Xcode.
 
 2. Install the JPEG, PNG, TIFF and GIF dependencies:
-
+```
  sudo port install jpeg libpng tiff giflib
+```
 
 3. Build webp:
 ```
