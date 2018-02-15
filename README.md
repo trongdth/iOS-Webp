@@ -19,6 +19,17 @@ Support encode/decode webp for iOS
  bash iosbuild.sh
 ```
 
+4. You will see WebP.framework, WebPDecoder.framework at current folder. 
+
+
 ## Run iOS source code:
 
-1. 
+1. Copy all classed under WebP-UIImage folder.
+2. Copy 2 frameworks WebP.framework, WebPDecoder.framework to your project.
+3. How to use:
+
+```
+ imv.image = UIImage(webPAtPath: Bundle.main.path(forResource: "5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A", ofType: "webp")!)
+```
+
+If there is any issue, feel free to contact me: trongdth@gmail.com

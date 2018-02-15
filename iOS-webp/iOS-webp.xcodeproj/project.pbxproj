@@ -16,21 +16,9 @@
 		15279518203550BE0085A49D /* iOS_webpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15279517203550BE0085A49D /* iOS_webpUITests.swift */; };
 		1527952A203561D20085A49D /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 15279527203561D20085A49D /* UIImage+WebP.m */; };
 		1527952B203561D20085A49D /* ImageToWebPDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15279529203561D20085A49D /* ImageToWebPDataTransformer.m */; };
-		1527952E203562010085A49D /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952C203562010085A49D /* WebPDecoder.framework */; };
-		1527952F203562010085A49D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952D203562010085A49D /* WebP.framework */; };
-		1527953F203564620085A49D /* Webp_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15279536203564620085A49D /* Webp_framework.framework */; };
-		15279546203564620085A49D /* Webp_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15279545203564620085A49D /* Webp_frameworkTests.swift */; };
-		15279548203564620085A49D /* Webp_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 15279538203564620085A49D /* Webp_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1527954B203564620085A49D /* Webp_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15279536203564620085A49D /* Webp_framework.framework */; };
-		1527954C203564620085A49D /* Webp_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15279536203564620085A49D /* Webp_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		152795542035646F0085A49D /* ImageToWebPDataTransformer.h in Sources */ = {isa = PBXBuildFile; fileRef = 15279526203561D20085A49D /* ImageToWebPDataTransformer.h */; };
-		152795552035646F0085A49D /* ImageToWebPDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15279529203561D20085A49D /* ImageToWebPDataTransformer.m */; };
-		152795562035646F0085A49D /* UIImage+WebP.h in Sources */ = {isa = PBXBuildFile; fileRef = 15279528203561D20085A49D /* UIImage+WebP.h */; };
-		152795572035646F0085A49D /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 15279527203561D20085A49D /* UIImage+WebP.m */; };
-		1527955A203564840085A49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15279559203564840085A49D /* UIKit.framework */; };
-		1527955B203564D20085A49D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952D203562010085A49D /* WebP.framework */; };
-		1527955C203564D20085A49D /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952C203562010085A49D /* WebPDecoder.framework */; };
-		1527959F203569BD0085A49D /* UIImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = 15279528203561D20085A49D /* UIImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B04C8D20356D820055CAA6 /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952C203562010085A49D /* WebPDecoder.framework */; };
+		15B04C8E20356D850055CAA6 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1527952D203562010085A49D /* WebP.framework */; };
+		15B04C90203575DA0055CAA6 /* 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp in Resources */ = {isa = PBXBuildFile; fileRef = 15B04C8F2035726A0055CAA6 /* 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,27 +36,6 @@
 			remoteGlobalIDString = 152794F3203550BD0085A49D;
 			remoteInfo = "iOS-webp";
 		};
-		15279540203564620085A49D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 152794EC203550BD0085A49D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15279535203564620085A49D;
-			remoteInfo = "Webp-framework";
-		};
-		15279542203564620085A49D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 152794EC203550BD0085A49D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 152794F3203550BD0085A49D;
-			remoteInfo = "iOS-webp";
-		};
-		15279549203564620085A49D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 152794EC203550BD0085A49D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15279535203564620085A49D;
-			remoteInfo = "Webp-framework";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1527954C203564620085A49D /* Webp_framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,13 +72,8 @@
 		1527952C203562010085A49D /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDecoder.framework; sourceTree = "<group>"; };
 		1527952D203562010085A49D /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		15279530203562D60085A49D /* iOS-webp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-webp-Bridging-Header.h"; sourceTree = "<group>"; };
-		15279536203564620085A49D /* Webp_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Webp_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15279538203564620085A49D /* Webp_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Webp_framework.h; sourceTree = "<group>"; };
-		15279539203564620085A49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1527953E203564620085A49D /* Webp-frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Webp-frameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15279545203564620085A49D /* Webp_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webp_frameworkTests.swift; sourceTree = "<group>"; };
-		15279547203564620085A49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15279559203564840085A49D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15B04C8F2035726A0055CAA6 /* 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1527952F203562010085A49D /* WebP.framework in Frameworks */,
-				1527952E203562010085A49D /* WebPDecoder.framework in Frameworks */,
-				1527954B203564620085A49D /* Webp_framework.framework in Frameworks */,
+				15B04C8E20356D850055CAA6 /* WebP.framework in Frameworks */,
+				15B04C8D20356D820055CAA6 /* WebPDecoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +100,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15279532203564620085A49D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1527955C203564D20085A49D /* WebPDecoder.framework in Frameworks */,
-				1527955B203564D20085A49D /* WebP.framework in Frameworks */,
-				1527955A203564840085A49D /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1527953B203564620085A49D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1527953F203564620085A49D /* Webp_framework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -165,11 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				15279530203562D60085A49D /* iOS-webp-Bridging-Header.h */,
+				15B04C8F2035726A0055CAA6 /* 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp */,
 				152794F6203550BD0085A49D /* iOS-webp */,
 				1527950B203550BD0085A49D /* iOS-webpTests */,
 				15279516203550BE0085A49D /* iOS-webpUITests */,
-				15279537203564620085A49D /* Webp-framework */,
-				15279544203564620085A49D /* Webp-frameworkTests */,
 				152794F5203550BD0085A49D /* Products */,
 				15279558203564830085A49D /* Frameworks */,
 			);
@@ -181,8 +122,6 @@
 				152794F4203550BD0085A49D /* iOS-webp.app */,
 				15279508203550BD0085A49D /* iOS-webpTests.xctest */,
 				15279513203550BD0085A49D /* iOS-webpUITests.xctest */,
-				15279536203564620085A49D /* Webp_framework.framework */,
-				1527953E203564620085A49D /* Webp-frameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,24 +171,6 @@
 			path = "WebP-UIImage";
 			sourceTree = "<group>";
 		};
-		15279537203564620085A49D /* Webp-framework */ = {
-			isa = PBXGroup;
-			children = (
-				15279538203564620085A49D /* Webp_framework.h */,
-				15279539203564620085A49D /* Info.plist */,
-			);
-			path = "Webp-framework";
-			sourceTree = "<group>";
-		};
-		15279544203564620085A49D /* Webp-frameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				15279545203564620085A49D /* Webp_frameworkTests.swift */,
-				15279547203564620085A49D /* Info.plist */,
-			);
-			path = "Webp-frameworkTests";
-			sourceTree = "<group>";
-		};
 		15279558203564830085A49D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,18 +180,6 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		15279533203564620085A49D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15279548203564620085A49D /* Webp_framework.h in Headers */,
-				1527959F203569BD0085A49D /* UIImage+WebP.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		152794F3203550BD0085A49D /* iOS-webp */ = {
@@ -285,7 +194,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1527954A203564620085A49D /* PBXTargetDependency */,
 			);
 			name = "iOS-webp";
 			productName = "iOS-webp";
@@ -328,43 +236,6 @@
 			productReference = 15279513203550BD0085A49D /* iOS-webpUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		15279535203564620085A49D /* Webp-framework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1527954D203564620085A49D /* Build configuration list for PBXNativeTarget "Webp-framework" */;
-			buildPhases = (
-				15279531203564620085A49D /* Sources */,
-				15279532203564620085A49D /* Frameworks */,
-				15279533203564620085A49D /* Headers */,
-				15279534203564620085A49D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Webp-framework";
-			productName = "Webp-framework";
-			productReference = 15279536203564620085A49D /* Webp_framework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1527953D203564620085A49D /* Webp-frameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15279551203564620085A49D /* Build configuration list for PBXNativeTarget "Webp-frameworkTests" */;
-			buildPhases = (
-				1527953A203564620085A49D /* Sources */,
-				1527953B203564620085A49D /* Frameworks */,
-				1527953C203564620085A49D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				15279541203564620085A49D /* PBXTargetDependency */,
-				15279543203564620085A49D /* PBXTargetDependency */,
-			);
-			name = "Webp-frameworkTests";
-			productName = "Webp-frameworkTests";
-			productReference = 1527953E203564620085A49D /* Webp-frameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -389,15 +260,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 152794F3203550BD0085A49D;
 					};
-					15279535203564620085A49D = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					1527953D203564620085A49D = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 152794F3203550BD0085A49D;
-					};
 				};
 			};
 			buildConfigurationList = 152794EF203550BD0085A49D /* Build configuration list for PBXProject "iOS-webp" */;
@@ -416,8 +278,6 @@
 				152794F3203550BD0085A49D /* iOS-webp */,
 				15279507203550BD0085A49D /* iOS-webpTests */,
 				15279512203550BD0085A49D /* iOS-webpUITests */,
-				15279535203564620085A49D /* Webp-framework */,
-				1527953D203564620085A49D /* Webp-frameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -430,6 +290,7 @@
 				15279502203550BD0085A49D /* LaunchScreen.storyboard in Resources */,
 				152794FF203550BD0085A49D /* Assets.xcassets in Resources */,
 				152794FD203550BD0085A49D /* Main.storyboard in Resources */,
+				15B04C90203575DA0055CAA6 /* 5D35AF5217A59F7CABC570F09F53D67B09D3F49EEB7B85242A.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,20 +302,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		15279511203550BD0085A49D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15279534203564620085A49D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1527953C203564620085A49D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,25 +338,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15279531203564620085A49D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				152795542035646F0085A49D /* ImageToWebPDataTransformer.h in Sources */,
-				152795552035646F0085A49D /* ImageToWebPDataTransformer.m in Sources */,
-				152795562035646F0085A49D /* UIImage+WebP.h in Sources */,
-				152795572035646F0085A49D /* UIImage+WebP.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1527953A203564620085A49D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15279546203564620085A49D /* Webp_frameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -522,21 +350,6 @@
 			isa = PBXTargetDependency;
 			target = 152794F3203550BD0085A49D /* iOS-webp */;
 			targetProxy = 15279514203550BE0085A49D /* PBXContainerItemProxy */;
-		};
-		15279541203564620085A49D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15279535203564620085A49D /* Webp-framework */;
-			targetProxy = 15279540203564620085A49D /* PBXContainerItemProxy */;
-		};
-		15279543203564620085A49D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 152794F3203550BD0085A49D /* iOS-webp */;
-			targetProxy = 15279542203564620085A49D /* PBXContainerItemProxy */;
-		};
-		1527954A203564620085A49D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15279535203564620085A49D /* Webp-framework */;
-			targetProxy = 15279549203564620085A49D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -613,6 +426,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iOS-webp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -662,6 +476,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iOS-webp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -671,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9948BJ3RH;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -691,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J9948BJ3RH;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -773,94 +590,6 @@
 			};
 			name = Release;
 		};
-		1527954E203564620085A49D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J9948BJ3RH;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOS-webp",
-				);
-				INFOPLIST_FILE = "Webp-framework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mroom.Webp-framework";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1527954F203564620085A49D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J9948BJ3RH;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/iOS-webp",
-				);
-				INFOPLIST_FILE = "Webp-framework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mroom.Webp-framework";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		15279552203564620085A49D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J9948BJ3RH;
-				INFOPLIST_FILE = "Webp-frameworkTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mroom.Webp-frameworkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-webp.app/iOS-webp";
-			};
-			name = Debug;
-		};
-		15279553203564620085A49D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J9948BJ3RH;
-				INFOPLIST_FILE = "Webp-frameworkTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mroom.Webp-frameworkTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-webp.app/iOS-webp";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -896,24 +625,6 @@
 			buildConfigurations = (
 				15279523203550BE0085A49D /* Debug */,
 				15279524203550BE0085A49D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1527954D203564620085A49D /* Build configuration list for PBXNativeTarget "Webp-framework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1527954E203564620085A49D /* Debug */,
-				1527954F203564620085A49D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15279551203564620085A49D /* Build configuration list for PBXNativeTarget "Webp-frameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15279552203564620085A49D /* Debug */,
-				15279553203564620085A49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
